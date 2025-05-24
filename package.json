@@ -1,20 +1,13 @@
 {
-  "dependencies": {
-    "body-parser": "^2.2.0",
-    "dotenv": "^16.5.0",
-    "express": "^5.1.0",
-    "nodemailer": "^7.0.3"
-  },
-  "name": "mehak",
+  "name": "wedding-planner",
   "version": "1.0.0",
-  "main": "scripts.js",
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "build": "npm install"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.8",
+    "dotenv": "^16.4.1"
+  }
 }
